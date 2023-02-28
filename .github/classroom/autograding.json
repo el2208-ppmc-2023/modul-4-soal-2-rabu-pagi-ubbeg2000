@@ -94,7 +94,7 @@
       "name": "10",
       "setup": "",
       "run": "./main",
-      "input": "data2.txt\r\ndata4.txt\r\ndata6.txt\r\n6\r\n2",
+      "input": "data2.txt\r\ndata4.txt\r\ndata6.txt\r\ncukup\r\n6\r\n2",
       "output": "EL 20\r\nJumlah orang yang belum kalah: 1\r\n1 orang laki-laki dan 0 orang perempuan\r\nNIM mahasiswa yang belum kalah:\r\n13220042\r\n\r\nEB 19\r\nSeluruh mahasiswa telah kalah\r\n\r\nEB 21\r\nJumlah orang yang belum kalah: 1\r\n0 orang laki-laki dan 1 orang perempuan\r\nNIM mahasiswa yang belum kalah:\r\n18321028",
       "comparison": "included",
       "timeout": 1,
