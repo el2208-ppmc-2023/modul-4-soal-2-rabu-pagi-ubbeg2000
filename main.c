@@ -48,7 +48,7 @@ int main(){
         FILE *fp = fopen(filename, "r");
         if (!fp) {
             printf("File tidak tersedia, silahkan coba lagi\n");
-            return 0;
+            continue;
         }
         fclose(fp);
 
