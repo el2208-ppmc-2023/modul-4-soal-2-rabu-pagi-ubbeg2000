@@ -163,11 +163,7 @@ data loadFile(char filename[MAX_STRLEN]){
         //parsing baris pertama - jurusan
         if (index == 0) {
 	    token = strtok(buff, "\n");
-	    for (int i = 0; i < strlen(token); i++) {
-	        if (token[i] == '\n') {
-		    token[i] = '\0';
-		}
-	    }
+	    token[2] = '\0';
             strcpy(data_siswa.jurusan, token);
         }
 
