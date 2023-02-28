@@ -161,7 +161,8 @@ data loadFile(char filename[MAX_STRLEN]){
         fgets(buff, BUFF_LEN, (FILE*)fp);
 
         //parsing baris pertama - jurusan
-        if (index == 0){
+        if (index == 0) {
+	    token = strtok(buff, "\n");
 	    for (int i = 0; token[i] != '\0'; i++) {
 	        if (token[i] == '\n') {
 		    token[i] = '\0';
