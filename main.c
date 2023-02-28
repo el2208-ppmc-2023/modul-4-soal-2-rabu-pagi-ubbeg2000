@@ -13,7 +13,7 @@
 #include <string.h>
 
 typedef struct {
-	char jurusan[2];
+	char jurusan[3];
 	int angkatan;
 	int* nim;
 	int* gender;
@@ -162,7 +162,11 @@ data loadFile(char filename[MAX_STRLEN]){
 
         //parsing baris pertama - jurusan
         if (index == 0){
-            token = strtok(buff, "\n");
+	    for (int i = 0; token[i] != '\0'; i++) {
+	        if (token[i] == '\n') {
+		    token[i] = '\0';
+		}
+	    }
             strcpy(data_siswa.jurusan, token);
         }
 
