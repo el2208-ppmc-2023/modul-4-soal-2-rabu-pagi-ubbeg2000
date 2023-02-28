@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "data1.txt\r\ncukup\r\n7\r\n4",
+      "output": "EL 19\r\nJumlah orang yang belum kalah: 2\r\n2 orang laki-laki dan 0 orang perempuan\r\nNIM mahasiswa yang belum kalah:\r\n13219020\r\n13219049",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "",
+      "run": "./main",
+      "input": "data2.txt\r\ncukup\r\n5\r\n3",
+      "output": "EL 20\r\nJumlah orang yang belum kalah: 2\r\n1 orang laki-laki dan 1 orang perempuan\r\nNIM mahasiswa yang belum kalah:\r\n13220049\r\n13220003",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "",
+      "run": "./main",
+      "input": "data3.txt\r\ncukup\r\n3\r\n6",
+      "output": "EL 21\r\nJumlah orang yang belum kalah: 5\r\n2 orang laki-laki dan 3 orang perempuan\r\nNIM mahasiswa yang belum kalah:\r\n13221042\r\n13221059\r\n13221088\r\n13221001\r\n13221080",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "",
+      "run": "./main",
+      "input": "data4.txt\r\ncukup\r\n3\r\n2",
+      "output": "EB 19\r\nJumlah orang yang belum kalah: 2\r\n1 orang laki-laki dan 1 orang perempuan\r\nNIM mahasiswa yang belum kalah:\r\n18319029\r\n18319018",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "",
+      "run": "./main",
+      "input": "data5.txt\r\ncukup\r\n7\r\n2",
+      "output": "EB 20\r\nJumlah orang yang belum kalah: 1\r\n0 orang laki-laki dan 1 orang perempuan\r\nNIM mahasiswa yang belum kalah:\r\n18320022",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "",
+      "run": "./main",
+      "input": "data6.txt\r\ncukup\r\n1\r\n4",
+      "output": "EB 21\r\nJumlah orang yang belum kalah: 6\r\n3 orang laki-laki dan 3 orang perempuan\r\nNIM mahasiswa yang belum kalah:\r\n18321018\r\n18321009\r\n18321001\r\n18321014\r\n18321007\r\n18321028",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "",
+      "run": "./main",
+      "input": "data2.txt\r\ndata\r\ndata4.txt\r\ncukup\r\n5\r\n5",
+      "output": "EL 20\r\nJumlah orang yang belum kalah: 2\r\n2 orang laki-laki dan 0 orang perempuan\r\nNIM mahasiswa yang belum kalah:\r\n13220049\r\n13220075\r\n\r\nEB 19\r\nSeluruh mahasiswa telah kalah",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "",
+      "run": "./main",
+      "input": "data1.txt\r\ncukup\r\n9\r\n1",
+      "output": "EL 19\r\nSeluruh mahasiswa telah kalah",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "",
+      "run": "./main",
+      "input": "data1.txt\r\ndata3.txt\r\ndata5.txt\r\ncukup\r\n5\r\n5",
+      "output": "EL 19\r\nJumlah orang yang belum kalah: 4\r\n1 orang laki-laki dan 3 orang perempuan\r\nNIM mahasiswa yang belum kalah:\r\n13219049\r\n13219038\r\n13219008\r\n13219029\r\n\r\nEL 21\r\nJumlah orang yang belum kalah: 3\r\n2 orang laki-laki dan 1 orang perempuan\r\nNIM mahasiswa yang belum kalah:\r\n13221052\r\n13221024\r\n13221048\r\n\r\nEB 20\r\nJumlah orang yang belum kalah: 3\r\n1 orang laki-laki dan 2 orang perempuan\r\nNIM mahasiswa yang belum kalah:\r\n18320006\r\n18320009\r\n18320033",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./main",
+      "input": "data2.txt\r\ndata4.txt\r\ndata6.txt\r\n6\r\n2",
+      "output": "EL 20\r\nJumlah orang yang belum kalah: 1\r\n1 orang laki-laki dan 0 orang perempuan\r\nNIM mahasiswa yang belum kalah:\r\n13220042\r\n\r\nEB 19\r\nSeluruh mahasiswa telah kalah\r\n\r\nEB 21\r\nJumlah orang yang belum kalah: 1\r\n0 orang laki-laki dan 1 orang perempuan\r\nNIM mahasiswa yang belum kalah:\r\n18321028",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
